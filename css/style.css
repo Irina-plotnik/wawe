@@ -62,7 +62,56 @@ img {
 }
 
 body {
+    min-width: 320px;
     font-family: 'Muller', sans-serif;
+    text-align: left;
+    background-color: #f1f1f1;
 }
+
+/* glob */
+
+.container {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font: inherit;
+    cursor: pointer;
+    appearance: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.descr {
+    margin: 0;
+    font-weight: 400;
+}
+
+.title_section {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: var(--black);
+}
+
+
+
+
+
 
 

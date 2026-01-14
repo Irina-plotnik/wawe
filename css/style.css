@@ -80,6 +80,7 @@ body {
 .list-reset {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .btn-reset {
@@ -107,6 +108,30 @@ h1, h2, h3, h4 {
     font-size: 48px;
     line-height: 100%;
     color: var(--black);
+    /* transition: color var(--transition-default); */
+}
+
+.text-section {
+    margin: 0;
+    font-weight: 400;
+}
+
+:root {
+    /* text-color */
+    --color-base-0: #fff;
+    --color-base-30: #A1A6B4 ;
+    --color-base-100: #000;
+    --color-purple-40: #AA9DFA;
+    --color-purple-50: #6D31EE;
+    --color-purple-60: #4F28A5;
+    --color-red-50: #D52B1E;
+    --color-orange-40: #F0D288;
+    --color-orange-50: #BB973E;
+    /* отступы */
+    --gap-cards-default  : 30px;
+    /* transitions */
+    --transition-default: 0.3s ease-in-out;
+    /* --transition-fast: 0.2s ease-in-out; */
 }
 
 

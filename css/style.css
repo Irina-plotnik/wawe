@@ -71,9 +71,8 @@ body {
 /* glob */
 
 .container {
-    max-width: 1920px;
-    padding: 0;
-    margin: 0;
+    max-width: 1110px;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -133,6 +132,7 @@ h1, h2, h3, h4 {
     --transition-default: 0.3s ease-in-out;
     /* --transition-fast: 0.2s ease-in-out; */
 }
+
 
 
 

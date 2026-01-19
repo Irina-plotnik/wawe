@@ -1,0 +1,44 @@
+.hero {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 55%;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.hero__title {
+    font-size: 60px;
+    color: var(--color-base-100);
+}
+
+.hero__title-start {
+    font-weight: 700;
+}
+
+.hero__title-finish {
+    font-style: italic;
+}
+
+.hero__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-base-100);
+}
+

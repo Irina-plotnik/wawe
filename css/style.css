@@ -98,10 +98,6 @@ h1, h2, h3, h4 {
     font-weight: normal;
 }
 
-section {
-    margin-bottom: 94px;
-}
-
 .descr {
     margin: 0;
     font-weight: 400;
@@ -123,6 +119,7 @@ section {
 :root {
     /* text-color */
     --color-base-0: #fff;
+    --color-base-20: #E6E8EC;
     --color-base-30: #A1A6B4 ;
     --color-base-100: #000;
     --color-purple-40: #AA9DFA;

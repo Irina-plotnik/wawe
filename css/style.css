@@ -101,19 +101,15 @@ h1, h2, h3, h4 {
 .descr {
     margin: 0;
     font-weight: 400;
+    font-size: 16px;
 }
 
-.title_section {
+.title-section {
     font-weight: 400;
     font-size: 48px;
     line-height: 100%;
     color: var(--black);
     /* transition: color var(--transition-default); */
-}
-
-.text-section {
-    margin: 0;
-    font-weight: 400;
 }
 
 :root {
@@ -129,7 +125,7 @@ h1, h2, h3, h4 {
     --color-orange-40: #F0D288;
     --color-orange-50: #BB973E;
     /* отступы */
-    --gap-cards-default  : 30px;
+    --gap-cards-default: 30px;
     /* transitions */
     --transition-default: 0.3s ease-in-out;
     /* --transition-fast: 0.2s ease-in-out; */

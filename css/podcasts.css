@@ -1,5 +1,4 @@
 .podcasts {
-    padding: 94px 0;
     background: var(--color-base-20);
 }
 
@@ -10,7 +9,6 @@
 }
 
 .podcasts__title {
-    font-size: 48px;
     color: var(--color-base-100);
 }
 

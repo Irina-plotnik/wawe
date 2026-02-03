@@ -27,7 +27,7 @@
     font-weight: 400;
     font-size: 20px;
     color: var(--color-base-100);
-    transition: var(--transition-default);
+    transition: color, background-color var(--transition-default);
 }
 
 .nav__link:focus {
@@ -41,7 +41,7 @@
 
 .nav__link:active {
     color: var(--color-purple-60);
-    background-color: unset;
+    background-color: transparent;
 }
 
 .header__search-link {

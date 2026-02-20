@@ -84,6 +84,7 @@
     border-radius: 77px;
     padding: 12px 20px;
     width: fit-content;
+    transition: background-color var(--transition-default);
 }
 
 .guests__btn-text {
@@ -91,5 +92,31 @@
     font-size: 16px;
     text-align: center;
     color: var(--color-purple-40);
+    transition: background-color var(--transition-default);
 }
 
+.guests__btn:hover {
+    background-color: var(--color-purple-40);
+
+    .guests__btn-text {
+        color: var(--color-base-0);
+    }
+}
+
+.guests__btn:focus {
+    background-color: var(--color-purple-50);
+    border: none;
+
+    .guests__btn-text {
+        color: var(--color-base-0);
+    }
+}
+
+.guests__btn:active {
+    background-color: var(--color-purple-60);
+    border: none;
+
+    .guests__btn-text {
+        color: var(--color-base-0);
+    }
+}

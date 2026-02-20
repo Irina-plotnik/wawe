@@ -43,10 +43,12 @@
 
 .hero__btn {
     padding: 25px 54px;
-    max-width: 245px;
-    max-height: 70px;
+    width: fit-content;
+    /* max-width: 245px; */
+    /* max-height: 70px; */
     border-radius: 40px;
     background-color: var(--color-purple-50);
+    transition: background-color var(--transition-default);
 }
 
 .hero__btn-text {
@@ -54,6 +56,22 @@
     font-size: 20px;
     text-align: center;
     color: var(--color-base-0);
+    transition: color var(--transition-default);
+}
+
+.hero__btn:hover {
+    background-color: var(--color-purple-40)
+}
+
+.hero__btn:focus {
+    background-color: var(--color-purple-40);
+    border: 2px solid;
+    border-color: var(--color-purple-60);
+}
+
+.hero__btn:active {
+    background-color: var(--color-purple-60);
+    border: none;
 }
 
 .hero__img {

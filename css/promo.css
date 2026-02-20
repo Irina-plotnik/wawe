@@ -91,11 +91,16 @@
     padding: 25px 13.5px;
     border: 2px solid var(--color-orange-40);
     border-radius: 100px;
+    transition: background-color var(--transition-default);
 }
 
 .promo-btn-img {
     width: 20px;
     height: 20px;
+
+    path {
+        transition: fill var(--transition-default);
+    }
 }
 
 .btn-promo-text {
@@ -103,4 +108,54 @@
     font-size: 20px;
     line-height: 100%;
     color: var(--color-orange-40);
+    transition: color var(--transition-default);
 }
+
+.btn-promo:hover {
+    background-color: var(--color-orange-40);
+
+    .btn-promo-text {
+        color: var(--color-base-100);
+    }
+
+    .promo-btn-img {
+        path:first-child {
+            fill: var(--color-base-90);
+        }
+
+        path:last-child {
+            fill: var(--color-orange-40);
+        }
+    }
+}
+
+.btn-promo:focus {
+    background-color: var(--color-orange-50);
+    border-color: var(--color-orange-40);
+
+    .btn-promo-text {
+        color: var(--color-base-100);
+    }
+}
+
+.btn-promo:active {
+    background-color: var(--color-orange-50);
+    border: none;
+
+    .btn-promo-text {
+        color: var(--color-base-100);
+    }
+
+    .promo-btn-img {
+        path:first-child {
+            fill: var(--color-base-90);
+        }
+
+        path:last-child {
+            fill: var(--color-orange-40);
+        }
+    }
+}
+
+
+

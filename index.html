@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/guests.css">
         <link rel="stylesheet" href="css/playlists.css">
         <link rel="stylesheet" href="css/promo.css">
+        <link rel="stylesheet" href="css/about.css">
     </head>
 
     <body>
@@ -1178,7 +1179,7 @@
                         </div>
 
                         <div class="about__header-image">
-                            <div class="head-img">
+                            <div class="head-img-1">
                                 <img
                                     class="img"
                                     src="images/about-header-1.png"
@@ -1186,7 +1187,7 @@
                                 >
                             </div>
 
-                            <div class="head-img">
+                            <div class="head-img-2">
                                 <img
                                     class="img"
                                     src="images/about-header-2.png"
@@ -1278,9 +1279,52 @@
                         </li>
                     </ul>
 
-                    <div class="about__footer">
+                    <form action="" method="post" class="about__footer">
+                        <div class="form-head">
+                            <textarea
+                                class="form-textarea"
+                                name="comment"
+                                placeholder="Что скажете?"
+                            >
+                            </textarea>
 
-                    </div>
+                            <div class="input-block">
+                                <input
+                                    class="form-input"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Имя"
+                                >
+
+                                <input
+                                    class="form-input"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Email"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-foot">
+                            <button class="form-foot-btn btn-reset" >
+                                Отправить
+                            </button>
+
+                            <label class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="form-check"
+                                    required
+                                    aria-label="Согласен на обработку персональных данных"
+                                >
+
+                                <div class="form-check-text">
+                                    Согласен на&nbsp;обработку персональных данных
+                                </div>
+                            </label>
+                        </div>
+                    </form>
                 </div>
             </section>
         </main>

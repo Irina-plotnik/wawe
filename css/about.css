@@ -155,4 +155,88 @@
     color: var(--color-base-30);
 }
 
+.form-foot {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-cards-default);
+}
+
+.form-foot-btn {
+    width: fit-content;
+    padding: 25px 54px;
+    border-radius: 40px;
+    background-color: var(--color-purple-50);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-base-0);
+}
+
+/* Контейнер для выравнивания */
+.form-check {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Скрываем стандартный инпут, но оставляем доступным для клавиатуры */
+.form-check-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 30px;
+}
+
+/* Стилизуем текст и создаем место под квадрат */
+.form-check-text {
+    position: relative;
+    padding-left: 30px; /* Отступ текста от квадрата */
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-base-0);
+    user-select: none;
+}
+
+/* Рисуем пустой квадрат */
+.form-check-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--color-base-0);
+    background: var(--color-base-90);
+    transition: all var(--transition-default);
+    transform: translateY(-50%);
+}
+
+/* Рисуем саму галочку (скрыта по умолчанию) */
+.form-check-text::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 35%;
+    width: 10px;
+    height: 8px;
+    background-image: url(/images/icons/form-check-svg.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+/* Состояние при клике: показываем галочку */
+.form-check-input:checked + .form-check-text::after {
+  transform: translate(0) scale(1.2); /* Проявляется */
+  opacity: 1;
+}
+
+
+
 

@@ -127,8 +127,26 @@
     background-color: var(--color-base-90);
     font-weight: 400;
     font-size: 20px;
-    color: var(--color-base-30);
+    color: var(--color-base-0);
     transition: background-color var(--transition-default);
+}
+
+.form-textarea:hover {
+    background-color: var(--color-base-80);
+}
+
+.form-textarea:focus {
+    border-color: var(--color-purple-40);
+}
+
+.form-textarea:focus {
+    border-color: var(--color-purple-40);
+}
+
+.form-textarea:active {
+    color: var(--color-base-0);
+    border-color: var(--color-base-0);
+    background-color: unset;
 }
 
 .form-input {
@@ -142,7 +160,7 @@
     background-color: var(--color-base-90);
     font-weight: 400;
     font-size: 20px;
-    color: var(--color-base-30);
+    color: var(--color-base-0);
     transition: background-color var(--transition-default);
 }
 
@@ -153,6 +171,29 @@
 
 .form-textarea::placeholder {
     color: var(--color-base-30);
+}
+
+
+.form-input:hover {
+    background-color: var(--color-base-80);
+}
+
+.form-input:focus {
+    border-color: var(--color-purple-40);
+
+    &:valid {
+        border-color: yellow
+    }
+
+    &:invalid {
+        border-color: red
+    }
+}
+
+.form-input:active {
+    color: var(--color-base-0);
+    border-color: var(--color-base-0);
+    background-color: unset;
 }
 
 .form-foot {
@@ -219,7 +260,7 @@
     content: "";
     position: absolute;
     left: 4px;
-    top: 35%;
+    top: 25%;
     width: 10px;
     height: 8px;
     background-image: url(/images/icons/form-check-svg.svg);

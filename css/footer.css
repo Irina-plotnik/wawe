@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--color-base-80);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+}
+
+.footer__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.reset-item {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+.social-item {
+    width: 100%;
+
+    color: var(--color-base-40);
+}

@@ -145,7 +145,8 @@ h1, h2, h3, h4 {
     /* text-color */
     --color-base-0: #fff;
     --color-base-20: #e6e8ec;
-    --color-base-30: #a1a6b4 ;
+    --color-base-30: #a1a6b4;
+    --color-base-40: #D2D5DD;
     --color-base-80: #292e39;
     --color-base-90:  #121723;
     --color-base-100: #000;

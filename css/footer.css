@@ -34,6 +34,24 @@
 
 .social-item {
     width: 100%;
-
     color: var(--color-base-40);
+}
+
+
+.footer__right {
+    width: 50%;
+    list-style-type: none;
+    columns: 3;
+    gap: 2rem;
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-base-0);
 }

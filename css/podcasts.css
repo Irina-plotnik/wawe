@@ -37,6 +37,10 @@
     position: absolute;
     padding: 3px 6px;
     bottom: 0;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: var(--color-base-100);
     background-color: var(--color-base-20);
 }
 

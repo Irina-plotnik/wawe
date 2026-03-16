@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
 }
 
 .transmissions__title {
@@ -60,6 +60,7 @@
 .transmissions__descr {
     line-height: 150%;
     color: var(--color-base-30);
+    width: 255px;
 }
 
 .transmissions__list {

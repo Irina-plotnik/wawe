@@ -1,4 +1,5 @@
 .footer {
+    padding-bottom: 10px;
     background-color: var(--color-base-80);
 }
 
@@ -12,12 +13,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 94px;
 }
 
 .footer__left {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
 }
 
 .footer-social {
@@ -39,7 +42,7 @@
 
 
 .footer__right {
-    width: 50%;
+    width: 40%;
     list-style-type: none;
     columns: 3;
     gap: 2rem;
@@ -54,4 +57,25 @@
     font-weight: 400;
     font-size: 16px;
     color: var(--color-base-0);
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_img {
+    width: inherit;
+    height: 10px;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 103%;
+    text-align: center;
+    color: var(--color-base-30);
 }

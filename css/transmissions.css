@@ -5,24 +5,22 @@
 .transmissions__container {
     display: flex;
     flex-direction: row;
-    gap: 57px;
+    gap: var(--gap-cards-default);
+}
+
+.transmissions__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .transmissions__wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 20%;
 }
 
 .transmissions__title {
     color: var(--color-base-100);
-}
-
-.transmissions__section {
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-end;
 }
 
 .transmissions__content {

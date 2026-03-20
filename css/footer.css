@@ -79,3 +79,14 @@
     text-align: center;
     color: var(--color-base-30);
 }
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+}

@@ -75,7 +75,64 @@
 }
 
 .hero__img {
-    max-width: 350px;
-    max-height: 372px;
+    display: flex;
+    width: 350px;
+    height: 372px;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 90px 0;
+    }
+
+    .hero__wrap {
+        gap: 20px;
+        width: 65%;
+    }
+
+    .hero__img {
+        width: 256px;
+        height: 262px;
+    }
+
+    .microphone-img {
+        width: inherit;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__wrap {
+        width: 100%;
+    }
+
+    .hero__img {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero__content {
+        gap: 8px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__descr {
+        font-size: 14px
+    }
+
+    .hero__btn {
+        padding: 17px 45px;
+    }
+
+    .hero__btn-text {
+        font-size: 16px;
+    }
 }
 

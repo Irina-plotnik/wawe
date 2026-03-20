@@ -299,6 +299,15 @@
     color: var(--color-red-50);
 }
 
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+}
 
 
 

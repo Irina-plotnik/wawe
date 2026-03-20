@@ -99,9 +99,24 @@ body {
 /* glob */
 
 .container {
-    max-width: 1110px;
+    --gutter: 20px;
+    display: flex;
+    max-width: calc(1110px + var(--gutter) * 2);
     margin: 0 auto;
+    padding: 0 var(--gutter);
     width: 100%;
+
+    @media (max-width: 1024px) {
+        max-width: calc(824px + var(--gutter) * 2);
+    }
+
+    @media (max-width: 768px) {
+        max-width: calc(540px + var(--gutter) * 2);
+    }
+
+    @media (max-width: 320px) {
+        max-width: calc(256px + var(--gutter) * 2);
+    }
 }
 
 .list-reset {

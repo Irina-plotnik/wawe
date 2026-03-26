@@ -18,6 +18,7 @@
 .transmissions__wrap {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 .transmissions__title {
@@ -32,7 +33,6 @@
 .transmissions-microphone {
     max-width: 65px;
     max-height: 89px;
-    margin-bottom: 24px;
 }
 
 .transmissions__footer {
@@ -41,15 +41,19 @@
     gap: 12px;
 }
 
+.transmissions__btn-wrap {
+    width: 60%;
+}
+
 .transmissions__button {
+    width: 100%;
+    height: 40px;
     border: 2px solid var(--color-base-100);
     border-radius: 77px;
-    padding: 12px 56px;
-    max-width: 160px;
-    max-height: 40px;
 }
 
 .btn-arhiv {
+    padding: 0 10px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
@@ -67,6 +71,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--gap-cards-default);
+}
+
+.transmissions__wrap-mob {
+    display: none;
 }
 
 .transmissions__item {
@@ -148,14 +156,112 @@
     font-size: 16px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+    .transmissions {
+        padding-bottom: 0;
+    }
+
+    .transmissions__container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .transmissions__title {
+        font-size: 24px;
+    }
+
+    .transmissions__wrap {
+        display: none;
+    }
+
     .transmissions__left {
+        margin-bottom: 123px;
+    }
+
+    .transmissions__list {
+        margin-bottom: 60px;
+    }
+
+    .transmissions__wrap-mob {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    .transmissions-microphone {
+        width: fit-content;
+    }
+
+    .transmissions__footer {
+        justify-content: space-between;
 
     }
 }
 
-@media (max-width: 768px) {
-}
-
 @media (max-width: 320px) {
+    .transmissions {
+        padding: 54px 0;
+    }
+
+    .transmissions__container {
+        gap: var(--gap-cards-default);
+    }
+
+    .transmissions__left {
+        margin-bottom: 0;
+    }
+
+    .transmissions__list {
+        margin-bottom: 0;
+    }
+
+    .transmissions__item {
+        width: 40%;
+    }
+
+    .transmissions__item-content {
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-title {
+        font-size: 12px;
+    }
+
+    .text-descr {
+        font-size: 9px;
+    }
+
+    .transmissions__item-link {
+        color: var(--color-purple-50);
+    }
+
+    .item-link {
+        font-size: 12px;
+    }
+
+    .transmissions__wrap-mob {
+        justify-content: flex-start;
+        padding: 0;
+        gap: 13px;
+    }
+
+    .transmissions__footer {
+        flex-direction: column-reverse;
+        gap: 7px;
+    }
+
+    .transmissions__descr {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .transmissions__button {
+        height: 35px;
+    }
+
 }

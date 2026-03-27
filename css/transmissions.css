@@ -35,14 +35,20 @@
     max-height: 89px;
 }
 
+.microphone-img {
+    width: 100%;
+    height: 100%;
+}
+
 .transmissions__footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%;
 }
 
 .transmissions__btn-wrap {
-    width: 60%;
+    width: 69%;
 }
 
 .transmissions__button {
@@ -61,9 +67,9 @@
 }
 
 .transmissions__descr {
+    padding-right: 10px;
     line-height: 150%;
     color: var(--color-base-30);
-    width: 255px;
 }
 
 .transmissions__list {
@@ -102,7 +108,6 @@
     padding: 20px 16px;
     border: 1px solid var(--color-base-20);
 }
-
 
 .transmissions__wrap-text {
     display: flex;
@@ -166,10 +171,6 @@
         gap: 0;
     }
 
-    .transmissions__title {
-        font-size: 24px;
-    }
-
     .transmissions__wrap {
         display: none;
     }
@@ -184,19 +185,24 @@
 
     .transmissions__wrap-mob {
         display: flex;
+        padding: 30px 20px;
+        border-top: 1px solid var(--color-base-20);
+    }
+
+    .mob__container {
+        display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 20px;
-        padding: 30px 20px;
     }
 
     .transmissions-microphone {
-        width: fit-content;
+        max-width: 70px;
+        max-height: 96px;
     }
 
     .transmissions__footer {
-        justify-content: space-between;
-
+        width: 50%;
     }
 }
 
@@ -213,8 +219,8 @@
         margin-bottom: 0;
     }
 
-    .transmissions__list {
-        margin-bottom: 0;
+    .transmissions__title {
+        font-size: 24px;
     }
 
     .transmissions__item {
@@ -246,13 +252,21 @@
 
     .transmissions__wrap-mob {
         justify-content: flex-start;
-        padding: 0;
+    }
+
+    .mob__container {
         gap: 13px;
     }
 
     .transmissions__footer {
         flex-direction: column-reverse;
         gap: 7px;
+        width: 75%;
+    }
+
+    .transmissions-microphone {
+        width: 77px;
+        height: 105px;
     }
 
     .transmissions__descr {
@@ -263,5 +277,4 @@
     .transmissions__button {
         height: 35px;
     }
-
 }

@@ -62,7 +62,6 @@
 }
 
 .playlists__img {
-    flex-grow: 1;
     position: relative;
 }
 
@@ -91,10 +90,33 @@
 }
 
 @media (max-width: 1024px) {
+    .playlists__container {
+        flex-direction: column;
+    }
 
+    .playlists__wrap {
+        width: 100%;
+    }
+
+    .playlists-img-absolut {
+        left: 0;
+    }
 }
 
 @media (max-width: 768px) {
+    .playlists__item {
+        flex-direction: row;
+        width: 45%;
+    }
+
+    .playlists__img {
+        width: 49%;
+    }
+
+    .playlists__card-text {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 @media (max-width: 320px) {

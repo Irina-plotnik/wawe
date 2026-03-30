@@ -31,6 +31,7 @@
 }
 
 .playlists__text-descr {
+    font-size: 16px;
     line-height: 138%;
     color: var(--color-base-30);
 }
@@ -59,6 +60,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    width: 17%;
 }
 
 .playlists__img {
@@ -94,7 +96,19 @@
         flex-direction: column;
     }
 
-    .playlists__wrap {
+    .playlists__item {
+        flex-direction: row;
+        width: 30%;
+        max-height: 112px;
+    }
+
+    .playlists__img {
+        width: 80%;
+    }
+
+    .playlists__card-text {
+        justify-content: center;
+        padding: 40px 10px;
         width: 100%;
     }
 
@@ -103,21 +117,47 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
+    .playlists {
+        padding: 54px 0;
+    }
+
+    .playlists__title {
+        font-size: 24px;
+    }
+
+    .playlists__text-descr {
+        font-size: 12px;
+        line-height: 133%;
+    }
+
+    .playlists__text-copy {
+        font-size: 12px;
+        line-height: 183%;
+    }
+
     .playlists__item {
-        flex-direction: row;
-        width: 45%;
+        flex-direction: column;
+        max-height: 159px;
     }
 
     .playlists__img {
-        width: 49%;
+        width: 100%
     }
 
     .playlists__card-text {
-        justify-content: center;
-        width: 100%;
+        padding: 10px;
     }
-}
 
-@media (max-width: 320px) {
+    .playlists__card-title {
+        font-size: 12px;
+    }
+
+    .playlists__card-descr {
+        font-size: 8px;
+    }
+
+    .playlists-img-absolut {
+        right: 0;
+    }
 }

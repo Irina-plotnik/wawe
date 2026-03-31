@@ -62,6 +62,7 @@
 .about__body {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: var(--gap-cards-default);
 }
 
@@ -300,10 +301,22 @@
 }
 
 @media (max-width: 1024px) {
+   .head-img-1 {
+    display: none;
+   }
+
+   .about__header-image {
+        align-items: center;
+    }
+
+    .about__body-item {
+        width: 48%;
+    }
 
 }
 
 @media (max-width: 768px) {
+
 }
 
 @media (max-width: 320px) {

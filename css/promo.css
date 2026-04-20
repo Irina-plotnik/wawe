@@ -5,7 +5,7 @@
 .promo__container {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .promo__img {
@@ -59,7 +59,7 @@
 .content__body {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .body-descr {
@@ -76,7 +76,7 @@
 .body-purchase {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .body-price {

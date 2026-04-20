@@ -48,7 +48,7 @@
 .guests__item {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .guest__img {
@@ -135,7 +135,7 @@
 
 @media (max-width: 1024px) {
     .guests__item-content {
-        gap: var(--gap-cards-default);
+        gap: var(--gap-cards);
         width: 45%;
     }
 
@@ -180,7 +180,7 @@
     }
 
     .guests__wrap {
-        gap: var(--gap-cards-default);
+        gap: var(--gap-cards);
     }
 
     .guests__item {

@@ -5,13 +5,13 @@
 .about__container {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .about__header {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .about__header-text {
@@ -46,7 +46,7 @@
 .about__header-image {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .head-img-1 {
@@ -67,13 +67,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .about__body-item {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
     width: 23%;
 }
 
@@ -108,14 +108,14 @@
 .about__footer {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
     width: 83%;
 }
 
 .form-head {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .textarea-block {
@@ -126,7 +126,7 @@
 .input-block {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .form-textarea {
@@ -214,7 +214,7 @@
 .form-foot {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-cards-default);
+    gap: var(--gap-cards);
 }
 
 .about-btn-wrap {

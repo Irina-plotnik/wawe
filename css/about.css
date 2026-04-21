@@ -215,7 +215,6 @@
 }
 
 .form-foot-btn {
-    width: 100%;
     height: 70px;
     border-radius: 40px;
     background-color: var(--color-purple-50);
@@ -329,7 +328,7 @@
 
     .about__body-item {
         flex-grow: 1;
-        width: calc(100% / var(--podcasts-cards-count) - var(--gap-cards) * var(--podcasts-cards-count) / (var(--podcasts-cards-count) - 1));
+        width: calc(100% / var(--about-cards-count) - var(--gap-cards) * var(--about-cards-count) / (var(--about-cards-count) - 1));
     }
 
     .about__item-img {
@@ -457,6 +456,10 @@
     .form-check-text::before {
         width: 13px;
         height: 13px;
+    }
+
+    .about-img {
+        object-fit: cover;
     }
 }
 

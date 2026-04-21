@@ -88,6 +88,10 @@
     .footer__right {
         width: 55%;
     }
+
+    .footer__right {
+        gap: 6rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -109,7 +113,7 @@
 
     .footer__right {
         width: 100%;
-        gap: 10rem;
+        gap: 2rem;
     }
 
     .footer__item {
@@ -128,13 +132,16 @@
         }
     }
 
-    .footer__container-mobile {
-        display: flex;
+    .footer__mobile {
         background-color: #121723;
     }
 
+    .footer__container-mobile {
+        display: flex;
+    }
+
     .footer__top {
-        gap: 54px;
+        padding-bottom: 54px;
         margin-bottom: 10px;
     }
 

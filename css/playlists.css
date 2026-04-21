@@ -117,6 +117,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .playlists__item {
+        min-width: 180px;
+    }
+}
+
 @media (max-width: 320px) {
     .playlists {
         padding: 54px 0;
@@ -138,6 +144,7 @@
 
     .playlists__item {
         flex-direction: column;
+        min-width: unset;
         max-height: 159px;
     }
 

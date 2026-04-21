@@ -142,10 +142,6 @@
     .guest__img {
         width: 52%;
     }
-
-    /* .guests__btn-wrap {
-        width: 46%;
-    } */
 }
 
 @media (max-width: 768px) {

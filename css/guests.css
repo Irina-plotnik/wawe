@@ -87,7 +87,7 @@
 }
 
 .guests__btn-wrap {
-    width: 36%;
+    max-width: 160px;
 }
 
 .guests__btn {
@@ -99,7 +99,7 @@
 }
 
 .guests__btn-text {
-    padding: 0 20px;
+    padding: 0 10px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
@@ -143,9 +143,9 @@
         width: 52%;
     }
 
-    .guests__btn-wrap {
-        width: 45%;
-    }
+    /* .guests__btn-wrap {
+        width: 46%;
+    } */
 }
 
 @media (max-width: 768px) {
